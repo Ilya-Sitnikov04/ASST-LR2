@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ASST_LR3: Класс KionFilm</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ASST_LR3
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pro-attribs">Защищенные данные</a> &#124;
+<a href="class_kion_film-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс KionFilm</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Базовый класс для представления информации о фильме.  
+ <a href="#details">Подробнее...</a></p>
+<div class="dynheader">
+Граф наследования:KionFilm:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kion_film__inherit__graph.jpg" border="0" usemap="#a_kion_film_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_kion_film_inherit__map" id="a_kion_film_inherit__map">
+<area shape="rect" title="Базовый класс для представления информации о фильме." alt="" coords="11,5,113,224"/>
+<area shape="rect" href="class_premiere_kion_film.html" title=" " alt="" coords="5,272,119,405"/>
+<area shape="poly" title=" " alt="" coords="65,239,65,272,60,272,60,239"/>
+</map>
+</div>
+<div class="dynheader">
+Граф связей класса KionFilm:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kion_film__coll__graph.jpg" border="0" usemap="#a_kion_film_coll__map" alt="Collaboration graph"/></div>
+<map name="a_kion_film_coll__map" id="a_kion_film_coll__map">
+<area shape="rect" title="Базовый класс для представления информации о фильме." alt="" coords="5,5,107,224"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a5baaf9e4d325d94890a8391fe50babca" id="r_a5baaf9e4d325d94890a8391fe50babca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5baaf9e4d325d94890a8391fe50babca">Init</a> (double income, double expens, double incomeother, string name)</td></tr>
+<tr class="separator:a5baaf9e4d325d94890a8391fe50babca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a659969aab219186cb79c6f69b05b764c" id="r_a659969aab219186cb79c6f69b05b764c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a659969aab219186cb79c6f69b05b764c">Read</a> ()</td></tr>
+<tr class="separator:a659969aab219186cb79c6f69b05b764c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84649da2fba508ed48751c500c03f144" id="r_a84649da2fba508ed48751c500c03f144"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84649da2fba508ed48751c500c03f144">Display</a> ()</td></tr>
+<tr class="separator:a84649da2fba508ed48751c500c03f144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a051b986c5a683dfc52e12100b4b6f030" id="r_a051b986c5a683dfc52e12100b4b6f030"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a051b986c5a683dfc52e12100b4b6f030">Total</a> ()</td></tr>
+<tr class="separator:a051b986c5a683dfc52e12100b4b6f030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33f873188679d158845243c4e767b467" id="r_a33f873188679d158845243c4e767b467"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33f873188679d158845243c4e767b467">Okup</a> ()</td></tr>
+<tr class="separator:a33f873188679d158845243c4e767b467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Защищенные данные</h2></td></tr>
+<tr class="memitem:acd40dea6960b0f0dc3e6d8e9330cce76" id="r_acd40dea6960b0f0dc3e6d8e9330cce76"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd40dea6960b0f0dc3e6d8e9330cce76">incomes</a></td></tr>
+<tr class="separator:acd40dea6960b0f0dc3e6d8e9330cce76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d8dc1d9c3536f8791395eadb9d47abe" id="r_a7d8dc1d9c3536f8791395eadb9d47abe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d8dc1d9c3536f8791395eadb9d47abe">expenses</a></td></tr>
+<tr class="separator:a7d8dc1d9c3536f8791395eadb9d47abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6081f29c82e90b1f1e142569d855f916" id="r_a6081f29c82e90b1f1e142569d855f916"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6081f29c82e90b1f1e142569d855f916">incomeothers</a></td></tr>
+<tr class="separator:a6081f29c82e90b1f1e142569d855f916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a97db279ed96a56d5709bd44f01b642" id="r_a9a97db279ed96a56d5709bd44f01b642"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a97db279ed96a56d5709bd44f01b642">names</a></td></tr>
+<tr class="separator:a9a97db279ed96a56d5709bd44f01b642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Базовый класс для представления информации о фильме. </p>
+<p>Содержит данные о доходах, расходах и других параметрах фильма, а также методы для инициализации, чтения, отображения данных и расчета прибыли. </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a84649da2fba508ed48751c500c03f144" name="a84649da2fba508ed48751c500c03f144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84649da2fba508ed48751c500c03f144">&#9670;&#160;</a></span>Display()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KionFilm::Display </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kion_film_a84649da2fba508ed48751c500c03f144_icgraph.jpg" border="0" usemap="#aclass_kion_film_a84649da2fba508ed48751c500c03f144_icgraph" alt=""/></div>
+<map name="aclass_kion_film_a84649da2fba508ed48751c500c03f144_icgraph" id="aclass_kion_film_a84649da2fba508ed48751c500c03f144_icgraph">
+<area shape="rect" title=" " alt="" coords="230,5,354,32"/>
+<area shape="rect" href="class_premiere_kion_film.html#a217ca54c9d2ee63686b2df7e631787d3" title=" " alt="" coords="5,5,182,32"/>
+<area shape="poly" title=" " alt="" coords="214,21,182,21,182,16,214,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5baaf9e4d325d94890a8391fe50babca" name="a5baaf9e4d325d94890a8391fe50babca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5baaf9e4d325d94890a8391fe50babca">&#9670;&#160;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KionFilm::Init </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>income</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>expens</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>incomeother</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kion_film_a5baaf9e4d325d94890a8391fe50babca_icgraph.jpg" border="0" usemap="#aclass_kion_film_a5baaf9e4d325d94890a8391fe50babca_icgraph" alt=""/></div>
+<map name="aclass_kion_film_a5baaf9e4d325d94890a8391fe50babca_icgraph" id="aclass_kion_film_a5baaf9e4d325d94890a8391fe50babca_icgraph">
+<area shape="rect" title=" " alt="" coords="204,5,302,32"/>
+<area shape="rect" href="class_premiere_kion_film.html#a03e21794ae6e1a4c33a583dccbc5df0f" title=" " alt="" coords="5,5,156,32"/>
+<area shape="poly" title=" " alt="" coords="188,21,156,21,156,16,188,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a33f873188679d158845243c4e767b467" name="a33f873188679d158845243c4e767b467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33f873188679d158845243c4e767b467">&#9670;&#160;</a></span>Okup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KionFilm::Okup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a659969aab219186cb79c6f69b05b764c" name="a659969aab219186cb79c6f69b05b764c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a659969aab219186cb79c6f69b05b764c">&#9670;&#160;</a></span>Read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KionFilm::Read </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kion_film_a659969aab219186cb79c6f69b05b764c_icgraph.jpg" border="0" usemap="#aclass_kion_film_a659969aab219186cb79c6f69b05b764c_icgraph" alt=""/></div>
+<map name="aclass_kion_film_a659969aab219186cb79c6f69b05b764c_icgraph" id="aclass_kion_film_a659969aab219186cb79c6f69b05b764c_icgraph">
+<area shape="rect" title=" " alt="" coords="466,5,578,32"/>
+<area shape="rect" href="class_premiere_kion_film.html#aa986134e6482f243be323b7628095a1d" title=" " alt="" coords="255,5,418,32"/>
+<area shape="poly" title=" " alt="" coords="451,21,419,21,419,16,451,16"/>
+<area shape="rect" href="class_kino_ind.html#a5cec84a202c8c8c90a415bc83703706f" title=" " alt="" coords="103,5,207,32"/>
+<area shape="poly" title=" " alt="" coords="240,21,208,21,208,16,240,16"/>
+<area shape="rect" href="_a_s_s_t___l_r3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a051b986c5a683dfc52e12100b4b6f030" name="a051b986c5a683dfc52e12100b4b6f030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a051b986c5a683dfc52e12100b4b6f030">&#9670;&#160;</a></span>Total()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KionFilm::Total </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Переопределяется в <a class="el" href="class_premiere_kion_film.html#a15f956d91a18bc7936eecd3e840cd190">PremiereKionFilm</a>.</p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kion_film_a051b986c5a683dfc52e12100b4b6f030_icgraph.jpg" border="0" usemap="#aclass_kion_film_a051b986c5a683dfc52e12100b4b6f030_icgraph" alt=""/></div>
+<map name="aclass_kion_film_a051b986c5a683dfc52e12100b4b6f030_icgraph" id="aclass_kion_film_a051b986c5a683dfc52e12100b4b6f030_icgraph">
+<area shape="rect" title=" " alt="" coords="214,5,322,32"/>
+<area shape="rect" href="class_premiere_kion_film.html#a15f956d91a18bc7936eecd3e840cd190" title=" " alt="" coords="5,5,166,32"/>
+<area shape="poly" title=" " alt="" coords="198,21,166,21,166,16,198,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="a7d8dc1d9c3536f8791395eadb9d47abe" name="a7d8dc1d9c3536f8791395eadb9d47abe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d8dc1d9c3536f8791395eadb9d47abe">&#9670;&#160;</a></span>expenses</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KionFilm::expenses</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6081f29c82e90b1f1e142569d855f916" name="a6081f29c82e90b1f1e142569d855f916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6081f29c82e90b1f1e142569d855f916">&#9670;&#160;</a></span>incomeothers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KionFilm::incomeothers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd40dea6960b0f0dc3e6d8e9330cce76" name="acd40dea6960b0f0dc3e6d8e9330cce76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd40dea6960b0f0dc3e6d8e9330cce76">&#9670;&#160;</a></span>incomes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KionFilm::incomes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a97db279ed96a56d5709bd44f01b642" name="a9a97db279ed96a56d5709bd44f01b642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a97db279ed96a56d5709bd44f01b642">&#9670;&#160;</a></span>names</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string KionFilm::names</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>ASST_LR3/ASST_LR3/<a class="el" href="_a_s_s_t___l_r3_8cpp.html">ASST_LR3.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

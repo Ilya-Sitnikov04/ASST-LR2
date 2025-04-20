@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ilyas\\Desktop\\\u0410\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u043E\u0435\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\QA_Lab3_Sitnikov\\ASST_LR3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC76CF52-3687-44B5-B341-AB38AA2A4B90}|ASST_LR3\\ASST_LR3.vcxproj|C:\\Users\\ilyas\\Desktop\\\u0410\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u043E\u0435\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\QA_Lab3_Sitnikov\\ASST_LR3\\ASST_LR3\\ASST_LR3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DC76CF52-3687-44B5-B341-AB38AA2A4B90}|ASST_LR3\\ASST_LR3.vcxproj|solutionrelative:ASST_LR3\\ASST_LR3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ASST_LR3.cpp",
+              "DocumentMoniker": "C:\\Users\\ilyas\\Desktop\\\u0410\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u043E\u0435\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\QA_Lab3_Sitnikov\\ASST_LR3\\ASST_LR3\\ASST_LR3.cpp",
+              "RelativeDocumentMoniker": "ASST_LR3\\ASST_LR3.cpp",
+              "ToolTip": "C:\\Users\\ilyas\\Desktop\\\u0410\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u043E\u0435\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u041F\u041E\\QA_Lab3_Sitnikov\\ASST_LR3\\ASST_LR3\\ASST_LR3.cpp",
+              "RelativeToolTip": "ASST_LR3\\ASST_LR3.cpp",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-20T15:41:56.758Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

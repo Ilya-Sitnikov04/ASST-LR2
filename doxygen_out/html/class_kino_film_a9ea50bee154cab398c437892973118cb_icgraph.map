@@ -1,0 +1,5 @@
+<map id="KinoFilm::Total" name="KinoFilm::Total">
+<area shape="rect" id="Node000001" title="Рассчитывает общую прибыль (доход минус расходы)." alt="" coords="214,5,322,32"/>
+<area shape="rect" id="Node000002" href="$class_premiere_kino_film.html#a749ff939845d3dd50091ea2d1c55e83f" title="Рассчитывает общую прибыль для премьерного фильма." alt="" coords="5,5,166,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,21,166,21,166,16,198,16"/>
+</map>

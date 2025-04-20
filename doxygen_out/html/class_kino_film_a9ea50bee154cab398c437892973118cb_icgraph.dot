@@ -1,0 +1,11 @@
+digraph "KinoFilm::Total"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="KinoFilm::Total",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Рассчитывает общую прибыль (доход минус расходы)."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PremiereKinoFilm::Total",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_premiere_kino_film.html#a749ff939845d3dd50091ea2d1c55e83f",tooltip="Рассчитывает общую прибыль для премьерного фильма."];
+}

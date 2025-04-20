@@ -1,0 +1,13 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Основная функция программы." alt="" coords="5,56,55,83"/>
+<area shape="rect" id="Node000002" href="$class_kino_ind.html#ab4c466900bffa09a565525c9e549768d" title="Отображает данные о двух фильмах в стандартный вывод." alt="" coords="133,5,250,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,58,102,41,125,34,126,39,103,47,56,63"/>
+<area shape="rect" id="Node000003" href="$class_kino_ind.html#a5cec84a202c8c8c90a415bc83703706f" title="Читает данные о двух фильмах из стандартного ввода." alt="" coords="139,56,244,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,67,124,67,124,72,55,72"/>
+<area shape="rect" id="Node000006" href="$class_kino_ind.html#a7372a4b359fd4f625af5172bfcd82872" title="Рассчитывает общую прибыль от двух фильмов." alt="" coords="103,107,280,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="56,76,103,92,126,99,125,104,102,97,54,81"/>
+<area shape="rect" id="Node000004" href="$class_premiere_kino_film.html#a1367d03dc5e8716da53935498eb4cbf7" title="Читает данные о премьерном фильме из стандартного ввода." alt="" coords="328,56,491,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="244,67,313,67,313,72,244,72"/>
+<area shape="rect" id="Node000005" href="$class_kino_film.html#a3245a55af6c4eb8f1c1c2f0524f58ce6" title="Читает данные о фильме из стандартного ввода." alt="" coords="539,56,651,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="492,67,524,67,524,72,492,72"/>
+</map>

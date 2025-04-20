@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ASST_LR3: Файл ASST_LR3/ASST_LR3/ASST_LR3.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ASST_LR3
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_33db93ea1ec0314c7cd98377eff32b36.html">ASST_LR3</a></li><li class="navelem"><a class="el" href="dir_3455961aea35ead256fe32ee43c3db5e.html">ASST_LR3</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Классы</a> &#124;
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle"><div class="title">Файл ASST_LR3.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для ASST_LR3.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_s_s_t___l_r3_8cpp__incl.jpg" border="0" usemap="#a_a_s_s_t___l_r3_2_a_s_s_t___l_r3_2_a_s_s_t___l_r3_8cpp" alt=""/></div>
+<map name="a_a_s_s_t___l_r3_2_a_s_s_t___l_r3_2_a_s_s_t___l_r3_8cpp" id="a_a_s_s_t___l_r3_2_a_s_s_t___l_r3_2_a_s_s_t___l_r3_8cpp">
+<area shape="rect" title=" " alt="" coords="74,5,270,48"/>
+<area shape="rect" title=" " alt="" coords="5,96,77,123"/>
+<area shape="poly" title=" " alt="" coords="139,51,75,90,73,85,137,46"/>
+<area shape="rect" title=" " alt="" coords="101,96,154,123"/>
+<area shape="poly" title=" " alt="" coords="163,50,144,83,140,81,158,47"/>
+<area shape="rect" title=" " alt="" coords="178,96,253,123"/>
+<area shape="poly" title=" " alt="" coords="185,47,204,81,199,83,181,50"/>
+<area shape="rect" title=" " alt="" coords="278,96,338,123"/>
+<area shape="poly" title=" " alt="" coords="208,46,275,85,272,90,205,51"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kino_film.html">KinoFilm</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Базовый класс для представления информации о фильме.  <a href="class_kino_film.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_premiere_kino_film.html">PremiereKinoFilm</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Производный класс для представления премьерных фильмов.  <a href="class_premiere_kino_film.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kino_ind.html">KinoInd</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Класс для работы с двумя фильмами и подсчета общей прибыли.  <a href="class_kino_ind.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4" id="r_ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Основная функция программы.  <br /></td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Функции</h2>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Основная функция программы. </p>
+<p>Функция <code>main</code> является точкой входа в программу и отвечает за следующие действия:</p>
+<p>Создаются три объекта <a class="el" href="class_kino_film.html" title="Базовый класс для представления информации о фильме.">KinoFilm</a>, <a class="el" href="class_premiere_kino_film.html" title="Производный класс для представления премьерных фильмов.">PremiereKinoFilm</a>, <a class="el" href="class_kino_ind.html" title="Класс для работы с двумя фильмами и подсчета общей прибыли.">KinoInd</a></p>
+<p>Программа рассчитывает общую сумму дохода от двух фильмов с помощью метода <code>TotalSalesForTwo()</code> класса <code><a class="el" href="class_kino_ind.html" title="Класс для работы с двумя фильмами и подсчета общей прибыли.">KinoInd</a></code>, результат выводится на экран в рублях.</p>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает код завершения программы (0 — успешное завершение). </dd></dl>
+<div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="_a_s_s_t___l_r3_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.jpg" border="0" usemap="#a_a_s_s_t___l_r3_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
+<map name="a_a_s_s_t___l_r3_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="a_a_s_s_t___l_r3_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
+<area shape="rect" title="Основная функция программы." alt="" coords="5,56,55,83"/>
+<area shape="rect" href="class_kino_ind.html#ab4c466900bffa09a565525c9e549768d" title="Отображает данные о двух фильмах в стандартный вывод." alt="" coords="133,5,250,32"/>
+<area shape="poly" title=" " alt="" coords="54,58,102,41,125,34,126,39,103,47,56,63"/>
+<area shape="rect" href="class_kino_ind.html#a5cec84a202c8c8c90a415bc83703706f" title="Читает данные о двух фильмах из стандартного ввода." alt="" coords="139,56,244,83"/>
+<area shape="poly" title=" " alt="" coords="55,67,124,67,124,72,55,72"/>
+<area shape="rect" href="class_kino_ind.html#a7372a4b359fd4f625af5172bfcd82872" title="Рассчитывает общую прибыль от двух фильмов." alt="" coords="103,107,280,133"/>
+<area shape="poly" title=" " alt="" coords="56,76,103,92,126,99,125,104,102,97,54,81"/>
+<area shape="rect" href="class_premiere_kino_film.html#a1367d03dc5e8716da53935498eb4cbf7" title="Читает данные о премьерном фильме из стандартного ввода." alt="" coords="328,56,491,83"/>
+<area shape="poly" title=" " alt="" coords="244,67,313,67,313,72,244,72"/>
+<area shape="rect" href="class_kino_film.html#a3245a55af6c4eb8f1c1c2f0524f58ce6" title="Читает данные о фильме из стандартного ввода." alt="" coords="539,56,651,83"/>
+<area shape="poly" title=" " alt="" coords="492,67,524,67,524,72,492,72"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

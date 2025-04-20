@@ -1,0 +1,472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ASST_LR3: Класс KinoFilm</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">ASST_LR3
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pro-attribs">Защищенные данные</a> &#124;
+<a href="class_kino_film-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс KinoFilm</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Базовый класс для представления информации о фильме.  
+ <a href="#details">Подробнее...</a></p>
+<div class="dynheader">
+Граф наследования:KinoFilm:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kino_film__inherit__graph.jpg" border="0" usemap="#a_kino_film_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_kino_film_inherit__map" id="a_kino_film_inherit__map">
+<area shape="rect" title="Базовый класс для представления информации о фильме." alt="" coords="11,5,113,224"/>
+<area shape="rect" href="class_premiere_kino_film.html" title="Производный класс для представления премьерных фильмов." alt="" coords="5,272,119,405"/>
+<area shape="poly" title=" " alt="" coords="65,239,65,272,60,272,60,239"/>
+</map>
+</div>
+<div class="dynheader">
+Граф связей класса KinoFilm:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kino_film__coll__graph.jpg" border="0" usemap="#a_kino_film_coll__map" alt="Collaboration graph"/></div>
+<map name="a_kino_film_coll__map" id="a_kino_film_coll__map">
+<area shape="rect" title="Базовый класс для представления информации о фильме." alt="" coords="5,5,107,224"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a7453592696c1b8f2b0fcda725cb6e524" id="r_a7453592696c1b8f2b0fcda725cb6e524"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7453592696c1b8f2b0fcda725cb6e524">Init</a> (double income, double expens, double incomeother, string name)</td></tr>
+<tr class="memdesc:a7453592696c1b8f2b0fcda725cb6e524"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализирует объект класса KionFilm заданными значениями.  <br /></td></tr>
+<tr class="separator:a7453592696c1b8f2b0fcda725cb6e524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3245a55af6c4eb8f1c1c2f0524f58ce6" id="r_a3245a55af6c4eb8f1c1c2f0524f58ce6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3245a55af6c4eb8f1c1c2f0524f58ce6">Read</a> ()</td></tr>
+<tr class="memdesc:a3245a55af6c4eb8f1c1c2f0524f58ce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Читает данные о фильме из стандартного ввода.  <br /></td></tr>
+<tr class="separator:a3245a55af6c4eb8f1c1c2f0524f58ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e43eff267ab973d8913e56d871098a0" id="r_a2e43eff267ab973d8913e56d871098a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e43eff267ab973d8913e56d871098a0">Display</a> ()</td></tr>
+<tr class="memdesc:a2e43eff267ab973d8913e56d871098a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отображает данные о фильме в стандартный вывод.  <br /></td></tr>
+<tr class="separator:a2e43eff267ab973d8913e56d871098a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ea50bee154cab398c437892973118cb" id="r_a9ea50bee154cab398c437892973118cb"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ea50bee154cab398c437892973118cb">Total</a> ()</td></tr>
+<tr class="memdesc:a9ea50bee154cab398c437892973118cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Рассчитывает общую прибыль (доход минус расходы).  <br /></td></tr>
+<tr class="separator:a9ea50bee154cab398c437892973118cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af34a201dad6aa72be07ed60ce8bd4ef3" id="r_af34a201dad6aa72be07ed60ce8bd4ef3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af34a201dad6aa72be07ed60ce8bd4ef3">Okup</a> ()</td></tr>
+<tr class="memdesc:af34a201dad6aa72be07ed60ce8bd4ef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Рассчитывает окупаемость фильма в процентах.  <br /></td></tr>
+<tr class="separator:af34a201dad6aa72be07ed60ce8bd4ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Защищенные данные</h2></td></tr>
+<tr class="memitem:a29e7d5a2e59afe5defd6310b00117187" id="r_a29e7d5a2e59afe5defd6310b00117187"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29e7d5a2e59afe5defd6310b00117187">incomes</a></td></tr>
+<tr class="memdesc:a29e7d5a2e59afe5defd6310b00117187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доход от показа фильма.  <br /></td></tr>
+<tr class="separator:a29e7d5a2e59afe5defd6310b00117187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c75b7ae436d5934eec1906a8f4e6829" id="r_a3c75b7ae436d5934eec1906a8f4e6829"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c75b7ae436d5934eec1906a8f4e6829">expenses</a></td></tr>
+<tr class="memdesc:a3c75b7ae436d5934eec1906a8f4e6829"><td class="mdescLeft">&#160;</td><td class="mdescRight">Расходы на производство фильма.  <br /></td></tr>
+<tr class="separator:a3c75b7ae436d5934eec1906a8f4e6829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9a68df9f0551dff75f73e010284f35c" id="r_ab9a68df9f0551dff75f73e010284f35c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9a68df9f0551dff75f73e010284f35c">incomeothers</a></td></tr>
+<tr class="memdesc:ab9a68df9f0551dff75f73e010284f35c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Доход от показа фильма в других странах.  <br /></td></tr>
+<tr class="separator:ab9a68df9f0551dff75f73e010284f35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6389e368f7a9769a7c3d396ae4464ad" id="r_ac6389e368f7a9769a7c3d396ae4464ad"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6389e368f7a9769a7c3d396ae4464ad">names</a></td></tr>
+<tr class="memdesc:ac6389e368f7a9769a7c3d396ae4464ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Название фильма.  <br /></td></tr>
+<tr class="separator:ac6389e368f7a9769a7c3d396ae4464ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Базовый класс для представления информации о фильме. </p>
+<div class="image">
+<img src="film.jpg" alt="" width="300px"/>
+<div class="caption">
+Пример кинофильма</div></div>
+<p> Содержит данные о доходах, расходах и других параметрах фильма, а также методы для инициализации, чтения, отображения данных и расчета прибыли. </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a2e43eff267ab973d8913e56d871098a0" name="a2e43eff267ab973d8913e56d871098a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e43eff267ab973d8913e56d871098a0">&#9670;&#160;</a></span>Display()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KinoFilm::Display </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Отображает данные о фильме в стандартный вывод. </p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kino_film_a2e43eff267ab973d8913e56d871098a0_icgraph.jpg" border="0" usemap="#aclass_kino_film_a2e43eff267ab973d8913e56d871098a0_icgraph" alt=""/></div>
+<map name="aclass_kino_film_a2e43eff267ab973d8913e56d871098a0_icgraph" id="aclass_kino_film_a2e43eff267ab973d8913e56d871098a0_icgraph">
+<area shape="rect" title="Отображает данные о фильме в стандартный вывод." alt="" coords="230,5,354,32"/>
+<area shape="rect" href="class_premiere_kino_film.html#a519ad16b895299fdeb5483aaa4ebf924" title="Отображает данные о премьерном фильме в стандартный вывод." alt="" coords="5,5,182,32"/>
+<area shape="poly" title=" " alt="" coords="214,21,182,21,182,16,214,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7453592696c1b8f2b0fcda725cb6e524" name="a7453592696c1b8f2b0fcda725cb6e524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7453592696c1b8f2b0fcda725cb6e524">&#9670;&#160;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KinoFilm::Init </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>income</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>expens</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>incomeother</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Инициализирует объект класса KionFilm заданными значениями. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">income</td><td>Доход от показа фильма. </td></tr>
+    <tr><td class="paramname">expens</td><td>Расходы на производство фильма. </td></tr>
+    <tr><td class="paramname">incomeother</td><td>Доход от показа фильма в других странах. </td></tr>
+    <tr><td class="paramname">name</td><td>Название фильма. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kino_film_a7453592696c1b8f2b0fcda725cb6e524_icgraph.jpg" border="0" usemap="#aclass_kino_film_a7453592696c1b8f2b0fcda725cb6e524_icgraph" alt=""/></div>
+<map name="aclass_kino_film_a7453592696c1b8f2b0fcda725cb6e524_icgraph" id="aclass_kino_film_a7453592696c1b8f2b0fcda725cb6e524_icgraph">
+<area shape="rect" title="Инициализирует объект класса KionFilm заданными значениями." alt="" coords="204,5,302,32"/>
+<area shape="rect" href="class_premiere_kino_film.html#aedb978c58fc4eabc5abe39bfa3c08681" title="Инициализирует объект класса PremiereKionFilm заданными значениями." alt="" coords="5,5,156,32"/>
+<area shape="poly" title=" " alt="" coords="188,21,156,21,156,16,188,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af34a201dad6aa72be07ed60ce8bd4ef3" name="af34a201dad6aa72be07ed60ce8bd4ef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af34a201dad6aa72be07ed60ce8bd4ef3">&#9670;&#160;</a></span>Okup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KinoFilm::Okup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Рассчитывает окупаемость фильма в процентах. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Окупаемость фильма в процентах.</dd></dl>
+<p>Формула расчета окупаемости:    </p><p class="formulaDsp">
+\[\text{Okup} = \left( \frac{\text{Incomes}}{\text{Expenses}} \right) +
+\left( \frac{\text{IncomeOthers}}{\text{Expenses}} \right)
+\]
+</p>
+<p>Где:</p><ul>
+<li>\( \text{Incomes} \) — Доход от показа фильма в текущей стране (в рублях).</li>
+<li>\( \text{Expenses} \) — Расходы на производство фильма (в рублях).</li>
+<li>\( \text{IncomeOthers} \) — Доход от показа фильма в других странах (в рублях).</li>
+</ul>
+<dl class="section return"><dt>Возвращает</dt><dd>Окупаемость фильма в процентах. </dd></dl>
+
+</div>
+</div>
+<a id="a3245a55af6c4eb8f1c1c2f0524f58ce6" name="a3245a55af6c4eb8f1c1c2f0524f58ce6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3245a55af6c4eb8f1c1c2f0524f58ce6">&#9670;&#160;</a></span>Read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KinoFilm::Read </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Читает данные о фильме из стандартного ввода. </p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kino_film_a3245a55af6c4eb8f1c1c2f0524f58ce6_icgraph.jpg" border="0" usemap="#aclass_kino_film_a3245a55af6c4eb8f1c1c2f0524f58ce6_icgraph" alt=""/></div>
+<map name="aclass_kino_film_a3245a55af6c4eb8f1c1c2f0524f58ce6_icgraph" id="aclass_kino_film_a3245a55af6c4eb8f1c1c2f0524f58ce6_icgraph">
+<area shape="rect" title="Читает данные о фильме из стандартного ввода." alt="" coords="466,5,578,32"/>
+<area shape="rect" href="class_premiere_kino_film.html#a1367d03dc5e8716da53935498eb4cbf7" title="Читает данные о премьерном фильме из стандартного ввода." alt="" coords="255,5,418,32"/>
+<area shape="poly" title=" " alt="" coords="451,21,419,21,419,16,451,16"/>
+<area shape="rect" href="class_kino_ind.html#a5cec84a202c8c8c90a415bc83703706f" title="Читает данные о двух фильмах из стандартного ввода." alt="" coords="103,5,207,32"/>
+<area shape="poly" title=" " alt="" coords="240,21,208,21,208,16,240,16"/>
+<area shape="rect" href="_a_s_s_t___l_r3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Основная функция программы." alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9ea50bee154cab398c437892973118cb" name="a9ea50bee154cab398c437892973118cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ea50bee154cab398c437892973118cb">&#9670;&#160;</a></span>Total()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KinoFilm::Total </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Рассчитывает общую прибыль (доход минус расходы). </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Общая прибыль от фильма.</dd></dl>
+<p>Формула расчета общей прибыли:   </p><p class="formulaDsp">
+\[\text{Total} = (\text{Incomes} + \text{IncomeOthers}) - \text{Expenses}
+\]
+</p>
+<p> Где:</p><ul>
+<li>\( \text{Incomes} \) — Доход от показа фильма в текущей стране (в рублях).</li>
+<li>\( \text{Expenses} \) — Расходы на производство фильма (в рублях).</li>
+<li>\( \text{IncomeOthers} \) — Доход от показа фильма в других странах (в рублях).</li>
+</ul>
+<dl class="section return"><dt>Возвращает</dt><dd>Общая прибыль от фильма. </dd></dl>
+
+<p>Переопределяется в <a class="el" href="class_premiere_kino_film.html#a749ff939845d3dd50091ea2d1c55e83f">PremiereKinoFilm</a>.</p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_kino_film_a9ea50bee154cab398c437892973118cb_icgraph.jpg" border="0" usemap="#aclass_kino_film_a9ea50bee154cab398c437892973118cb_icgraph" alt=""/></div>
+<map name="aclass_kino_film_a9ea50bee154cab398c437892973118cb_icgraph" id="aclass_kino_film_a9ea50bee154cab398c437892973118cb_icgraph">
+<area shape="rect" title="Рассчитывает общую прибыль (доход минус расходы)." alt="" coords="214,5,322,32"/>
+<area shape="rect" href="class_premiere_kino_film.html#a749ff939845d3dd50091ea2d1c55e83f" title="Рассчитывает общую прибыль для премьерного фильма." alt="" coords="5,5,166,32"/>
+<area shape="poly" title=" " alt="" coords="198,21,166,21,166,16,198,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="a3c75b7ae436d5934eec1906a8f4e6829" name="a3c75b7ae436d5934eec1906a8f4e6829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c75b7ae436d5934eec1906a8f4e6829">&#9670;&#160;</a></span>expenses</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KinoFilm::expenses</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Расходы на производство фильма. </p>
+
+</div>
+</div>
+<a id="ab9a68df9f0551dff75f73e010284f35c" name="ab9a68df9f0551dff75f73e010284f35c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9a68df9f0551dff75f73e010284f35c">&#9670;&#160;</a></span>incomeothers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KinoFilm::incomeothers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Доход от показа фильма в других странах. </p>
+
+</div>
+</div>
+<a id="a29e7d5a2e59afe5defd6310b00117187" name="a29e7d5a2e59afe5defd6310b00117187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29e7d5a2e59afe5defd6310b00117187">&#9670;&#160;</a></span>incomes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double KinoFilm::incomes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Доход от показа фильма. </p>
+
+</div>
+</div>
+<a id="ac6389e368f7a9769a7c3d396ae4464ad" name="ac6389e368f7a9769a7c3d396ae4464ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6389e368f7a9769a7c3d396ae4464ad">&#9670;&#160;</a></span>names</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string KinoFilm::names</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Название фильма. </p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>ASST_LR3/ASST_LR3/<a class="el" href="_a_s_s_t___l_r3_8cpp.html">ASST_LR3.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>
