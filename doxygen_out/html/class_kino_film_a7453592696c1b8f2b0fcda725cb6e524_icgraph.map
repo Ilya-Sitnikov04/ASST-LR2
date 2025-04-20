@@ -1,5 +1,0 @@
-<map id="KinoFilm::Init" name="KinoFilm::Init">
-<area shape="rect" id="Node000001" title="Инициализирует объект класса KionFilm заданными значениями." alt="" coords="204,5,302,32"/>
-<area shape="rect" id="Node000002" href="$class_premiere_kino_film.html#aedb978c58fc4eabc5abe39bfa3c08681" title="Инициализирует объект класса PremiereKionFilm заданными значениями." alt="" coords="5,5,156,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,21,156,21,156,16,188,16"/>
-</map>

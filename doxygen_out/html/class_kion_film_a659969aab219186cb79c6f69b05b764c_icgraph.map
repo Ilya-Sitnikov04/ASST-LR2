@@ -1,9 +1,0 @@
-<map id="KionFilm::Read" name="KionFilm::Read">
-<area shape="rect" id="Node000001" title=" " alt="" coords="466,5,578,32"/>
-<area shape="rect" id="Node000002" href="$class_premiere_kion_film.html#aa986134e6482f243be323b7628095a1d" title=" " alt="" coords="255,5,418,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="451,21,419,21,419,16,451,16"/>
-<area shape="rect" id="Node000003" href="$class_kino_ind.html#a5cec84a202c8c8c90a415bc83703706f" title=" " alt="" coords="103,5,207,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,21,208,21,208,16,240,16"/>
-<area shape="rect" id="Node000004" href="$_a_s_s_t___l_r3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
-</map>

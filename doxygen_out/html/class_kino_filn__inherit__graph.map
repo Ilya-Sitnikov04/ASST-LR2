@@ -1,5 +1,0 @@
-<map id="KinoFiln" name="KinoFiln">
-<area shape="rect" id="Node000001" title="Базовый класс для представления информации о фильме." alt="" coords="9,5,111,224"/>
-<area shape="rect" id="Node000002" href="$class_premiere_kino_filn.html" title=" " alt="" coords="5,272,115,405"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,239,63,272,58,272,58,239"/>
-</map>
